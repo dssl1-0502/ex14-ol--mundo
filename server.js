@@ -4,11 +4,11 @@ const app = express();
 // TODO: implemente a rota GET /
 // A resposta deve conter a palavra "Hello"
 app.get('/', (req, res) => {
-  res.send('Hello');
+  res.send('Hello, world');
 });
 
 app.listen(3000, () => {
   console.log('Servidor rodando em http://localhost:3000');
 });
 
-Débora fez um commit
+
